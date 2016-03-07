@@ -69,7 +69,7 @@ $ make system_listener
 $ make auth_listener
 ```
 
--- Add listeners
+- Add listeners
 
 ```shell
 $ ./system_listener
