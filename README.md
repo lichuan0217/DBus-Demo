@@ -20,6 +20,8 @@ The python demo contains 4 scripts:
 - register.py --  Regist a callback on a signal in this DBus service.
 - sender.py   --  Call a method on DBus service and trigger a signal.
 - org.example.Credentials.conf  --  The configuration file for this DBus service.
+- utils/system-service.py -- List all the system DBus service
+- utils/session-service.py  -- List all the session DBus service
 
 ### How to use
 
@@ -53,6 +55,8 @@ The C Version demo contains 3 files:
 - system_listener.c  --  Use connection filter to monitor the signal
 - auth_listener.c    --  Use dbus-glib`s signal api to monitor the siganl
 - Makefile           --  Compile the listener.
+- gio/listener.c     --  DBus listener using new gio api.
+- gio/Makefile       --  Makefile for the new DBus listener
 
 ### How to use
 
